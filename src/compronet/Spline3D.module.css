@@ -1,0 +1,40 @@
+.spline {
+  height: 100%;
+  z-index: 2;
+}
+
+.h3Name {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    to right top,
+    #ffff34,
+    #ffc812,
+    #5321ea,
+    #4615dc,
+    #3f13c6
+  );
+  background-size: 50% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Roboto', sans-serif;
+  font-size: 136px;
+  margin: 0;
+  animation: gradientAnim 7.5s ease alternate infinite;
+  position: absolute;
+  z-index: 5;
+}
+
+@keyframes gradientAnim {
+  to {
+    background-position: 100% top;
+  }
+}
+
+.blackDrop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  background-image: linear-gradient(180deg, #342b4d, rgb(22, 22, 26));
+}

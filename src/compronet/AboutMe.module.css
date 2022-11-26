@@ -1,0 +1,103 @@
+.elementor-section {
+  padding: 0 50px;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+}
+
+.picArt {
+  pointer-events: none;
+  display: block;
+  position: absolute;
+  z-index: 9999;
+  top: 16%;
+  right: 73vw;
+  transform: translate3d(0, -50%, 0);
+  width: 42vw;
+  aspect-ratio: 1/1;
+  border-radius: 100%;
+  background-position: 50%;
+  background-size: cover;
+  filter: grayscale(1) brightness(1);
+  mix-blend-mode: difference;
+  background-image: url('/public/imgs/Lawiz.jpg');
+}
+
+.elemtntor-container {
+  margin: 0 301px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.elemtntor-columa {
+  width: 50%;
+  position: relative;
+}
+
+.elemtntor-columa-skill {
+  width: 50%;
+  position: relative;
+  margin-left: 20px;
+}
+
+.elementor-widget-wrap {
+  padding: 10px;
+  width: 100%;
+  position: relative;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.elementor-widget-wrap h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #fffffe;
+}
+
+.elementor-heading-title {
+  font-size: 105px;
+  font-weight: 600;
+  line-height: 1.2em;
+  margin-bottom: 0;
+  color: whitesmoke;
+}
+
+.elementor-icon-link {
+  display: flex;
+  align-items: center;
+}
+
+.elementor-icon-link > a {
+  margin-right: 1em;
+}
+
+.elementor-article-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2em;
+  color: whitesmoke;
+}
+
+.elementor-heading-title-skills {
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 1.2em;
+  margin-bottom: 0;
+  position: absolute;
+  right: 359px;
+  bottom: 102px;
+  color: whitesmoke;
+  transform: rotate(-90deg);
+  width: 400px;
+}
+
+.setIconSkills{
+  max-width: 300px;
+  position: relative;
+  left: 170px;
+  top: 26px;
+}
+
+.setIconSkills img {
+  margin-right: 20px;
+}
