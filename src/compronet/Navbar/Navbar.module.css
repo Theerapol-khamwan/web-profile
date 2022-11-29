@@ -1,11 +1,14 @@
-
 .masthead {
-  background: 0 0;
   vertical-align: middle;
   left: 0;
   right: 0;
   position: absolute;
   z-index: 60;
+
+  backdrop-filter: blur(5px);
+  --webkit-backdrop-filter: blur(5px);
+  --moz-backdrop-filter: blur(5px);
+  background-color: rgba(22, 22, 26, 0.3);
 }
 
 .navBar {
@@ -13,7 +16,7 @@
   padding-right: 4.4vh;
   position: relative;
   z-index: 1;
-  height: 14vh;
+  height: 8vh;
 
   display: flex;
   justify-content: center;
@@ -56,4 +59,10 @@ a {
 a:hover {
   box-shadow: inset 100px 0 0 0 #8449f1;
   color: white;
+}
+
+@media only screen and (max-width: 480px) {
+  .masthead {
+    display: none;
+  }
 }

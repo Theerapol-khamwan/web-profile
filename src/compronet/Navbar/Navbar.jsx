@@ -12,13 +12,13 @@ export default function Navbar() {
                 <a>.home()</a>
               </li>
               <li>
-                <a>.expertise()</a>
-              </li>
-              <li>
-                <a>.work()</a>
-              </li>
-              <li>
                 <a>.experience()</a>
+              </li>
+              <li>
+                <a>.about(me)</a>
+              </li>
+              <li>
+                <a>.expertise()</a>
               </li>
               <li>
                 <a>.contact()</a>

@@ -1,0 +1,153 @@
+.elementor-section {
+  margin: 100px auto;
+  position: relative;
+  display: block;
+}
+
+.elemtntor-container {
+  margin: 0 301px;
+}
+
+.elemtntor-columa {
+  width: 100%;
+  position: relative;
+}
+
+.elemtntor-widget-warp {
+  padding: 10px;
+  position: relative;
+  flex-wrap: wrap;
+  width: 100%;
+  align-content: flex-start;
+}
+
+.elementor-heading-title {
+  font-size: 75px;
+  font-weight: 600;
+  line-height: 1.4em;
+  color: #fffffe;
+  text-align: center;
+}
+
+.elementor-all-card {
+  justify-content: center;
+  display: flex;
+}
+
+.setPositionCard {
+  padding: 40px 30px;
+}
+
+.setPositionCard > h2 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #7f5af0;
+}
+
+.setPositionCard > p {
+  color: #fffffe;
+  font-size: 16px;
+}
+.cardExpertise {
+  height: 333px;
+  width: 366px;
+
+  color: #fff;
+  background: #222;
+  border-radius: 20px;
+
+  margin: 20px;
+}
+
+.cardExpertise:hover {
+  animation: shadow-drop-center 0.4s linear both;
+}
+@keyframes shadow-drop-center {
+  0% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  100% {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.55);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .elementor-section {
+    margin: 0;
+  }
+
+  .elemtntor-container {
+    margin: 0;
+  }
+
+  .elemtntor-widget-warp {
+    padding: 0;
+    width: 100%;
+  }
+
+  .elementor-all-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+  }
+
+  .cardExpertise {
+    height: 333px;
+    width: 333px;
+    margin: 16px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .elementor-section {
+    margin: 0;
+  }
+
+  .elemtntor-container {
+    margin: 0;
+  }
+
+  .elementor-all-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+  }
+
+  .cardExpertise {
+    height: 333px;
+    width: 366px;
+
+    margin: 20px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .elementor-section {
+    margin: 0;
+  }
+
+  .elemtntor-container {
+    margin: 0;
+  }
+
+  .elementor-all-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+  }
+
+  .cardExpertise {
+    height: 333px;
+    width: 366px;
+    margin: 20px;
+  }
+}

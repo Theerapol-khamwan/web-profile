@@ -9,6 +9,7 @@ const AboutMe = () => {
           <div className={style['elemtntor-columa']}>
             <div className={style['elementor-widget-wrap']}>
               <h2 className={style['elementor-heading-title']}>About (Me)</h2>
+
               <div className={style['elementor-icon-link']}>
                 <a
                   href='https://www.linkedin.com/in/theerapol-khamwan-a9303a240/'
@@ -48,7 +49,7 @@ const AboutMe = () => {
           <div className={style['elemtntor-columa-skill']}>
             <div className={style['elementor-widget-wrap']}>
               <h2 className={style['elementor-heading-title-skills']}>
-                Main skills
+                MainSkills
               </h2>
               <div className={style.setIconSkills}>
                 <h3>Front End</h3>

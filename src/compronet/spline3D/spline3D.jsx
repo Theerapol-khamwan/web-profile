@@ -5,7 +5,7 @@ export default function Spline3D() {
   return (
     <>
       <section className={style.blackDrop}>
-        <h3 className={style.h3Name}>/. Theerapol ./</h3>
+        <h3 className={style.h3Name}> /.Theerapol./ </h3>
         <div className={style.cutOp}>
           <Spline
             className={style.spline}

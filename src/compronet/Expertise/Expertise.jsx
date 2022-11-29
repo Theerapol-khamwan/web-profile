@@ -10,6 +10,7 @@ const Expertise = () => {
             <div className={style['elemtntor-widget-warp']}>
               <h1 className={style['elementor-heading-title']}>My Expertise</h1>
               <div className={style['elementor-all-card']}>
+
                 <div className={style.cardExpertise}>
                   <div className={style.setPositionCard}>
                     <h2>Generation Software Developer Bootcamp</h2>
@@ -27,11 +28,12 @@ const Expertise = () => {
                   <div className={style.setPositionCard}>
                     <h2>UX/UI - Technologyflybird Group</h2>
                     <p className={style.cardTextArticle}>
-                      Experienced in both functional and OOP: Dart, Python,
-                      Java, JavaScript, TypeScript.
+                      Design UX/UI in Crypto currency trading websites and build
+                      web responsiveness. Using HTML 5, CSS bootstrap 5, js.
                     </p>
                   </div>
                 </div>
+                
               </div>
             </div>
           </div>
