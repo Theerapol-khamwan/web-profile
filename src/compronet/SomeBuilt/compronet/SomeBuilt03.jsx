@@ -48,7 +48,7 @@ const SomeBuilt03 = () => {
                     </svg>
                   </a>
                   <a
-                    href='#'
+                    href='https://replit.com/@Theerapolkhamwa/Challenge-Project-Find-Your-Hat16Keng#index.js'
                     aria-label='External link'
                     rel='noopener noreferrer'
                     target='_blank'
@@ -74,7 +74,7 @@ const SomeBuilt03 = () => {
             </div>
             <div className={style.imgProject}>
               <a
-                href='https://github.com/Theerapol-khamwan/exercise-tracker-website'
+                href='https://replit.com/@Theerapolkhamwa/Challenge-Project-Find-Your-Hat16Keng#index.js'
                 rel='noopener noreferrer'
                 target='_blank'
               >

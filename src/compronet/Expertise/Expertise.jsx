@@ -8,7 +8,7 @@ const Expertise = () => {
         <div className={style['elemtntor-container']}>
           <div className={style['elemtntor-columa']}>
             <div className={style['elemtntor-widget-warp']}>
-              <h1 className={style['elementor-heading-title']}>My Expertise</h1>
+              <h1 className={style['elementor-heading-title']}>My Experience</h1>
               <div className={style['elementor-all-card']}>
 
                 <div className={style.cardExpertise}>

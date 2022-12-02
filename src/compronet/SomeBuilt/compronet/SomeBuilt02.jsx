@@ -47,7 +47,7 @@ const SomeBuilt02 = () => {
                     </svg>
                   </a>
                   <a
-                    href='#'
+                    href='https://jamming-miniproject-01.pages.dev/'
                     aria-label='External link'
                     rel='noopener noreferrer'
                     target='_blank'
@@ -73,7 +73,7 @@ const SomeBuilt02 = () => {
             </div>
             <div className={style.imgProject}>
               <a
-                href='https://github.com/Theerapol-khamwan/exercise-tracker-website'
+                href='https://jamming-miniproject-01.pages.dev/'
                 rel='noopener noreferrer'
                 target='_blank'
               >
