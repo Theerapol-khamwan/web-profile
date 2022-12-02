@@ -1,5 +1,17 @@
 import style from './AboutMe.module.css';
-
+import linkedin from './../../../public/imgs/linkedin.png'
+import gitHub from './../../../public/imgs/github.png'
+import html5 from './../../../public/imgs/html5.svg'
+import css3 from './../../../public/imgs/css3.svg'
+import javascript from './../../../public/imgs/javascript.svg'
+import reactImg from './../../../public/imgs/react.svg'
+import nodedotjs from './../../../public/imgs/nodedotjs.svg'
+import expressIcon from './../../../public/imgs/express.svg'
+import mongoDbIcon from './../../../public/imgs/mongodb.svg'
+import gitIcon from './../../../public/imgs/git.svg'
+import bootstrapIcon from './../../../public/imgs/bootstrap.svg'
+import muiIcon from './../../../public/imgs/mui.svg'
+import tailwindcssIcon from './../../../public/imgs/tailwindcss.svg'
 
 const AboutMe = () => {
   return (
@@ -18,7 +30,7 @@ const AboutMe = () => {
                   target='_blank'
                 >
                   <img
-                    src='./../../public/imgs/linkedin.png'
+                    src={linkedin}
                     alt='img-Linkedin'
                     width='24px'
                     height='24px'
@@ -30,7 +42,7 @@ const AboutMe = () => {
                   target='_blank'
                 >
                   <img
-                    src='./../../public/imgs/github.png'
+                    src={gitHub}
                     alt='img-GitHub'
                     width='24px'
                     height='24px'
@@ -56,26 +68,26 @@ const AboutMe = () => {
                 <h3>Front End</h3>
 
                 <img
-                  src='./../../public/imgs/html5.svg'
+                  src={html5}
                   alt='HTML5'
                   width='48px'
                   height='48px'
                 />
                 <img
-                  src='./../../public/imgs/css3.svg'
+                  src={css3}
                   alt='CSS3'
                   width='48px'
                   height='48px'
                 />
                 <img
-                  src='./../../public/imgs/javascript.svg'
+                  src={javascript}
                   alt='Javascript'
                   width='48px'
                   height='48px'
                 />
 
                 <img
-                  src='./../../public/imgs/react.svg'
+                  src={reactImg}
                   alt='React'
                   width='48px'
                   height='48px'
@@ -85,21 +97,21 @@ const AboutMe = () => {
                 <h3>Back End</h3>
 
                 <img
-                  src='./../../public/imgs/nodedotjs.svg'
+                  src={nodedotjs}
                   alt='Nodedotjs'
                   width='48px'
                   height='48px'
                 />
 
                 <img
-                  src='./../../public/imgs/express.svg'
+                  src={expressIcon}
                   alt='Express'
                   width='48px'
                   height='48px'
                 />
 
                 <img
-                  src='./../../public/imgs/mongodb.svg'
+                  src={mongoDbIcon}
                   alt='Mongodb'
                   width='48px'
                   height='48px'
@@ -108,26 +120,26 @@ const AboutMe = () => {
               <div className={style.setIconSkills}>
                 <h3>More..</h3>
                 <img
-                  src='./../../public/imgs/git.svg'
+                  src={gitIcon}
                   alt='Git'
                   width='48px'
                   height='48px'
                 />
                 <img
-                  src='./../../public/imgs/bootstrap.svg'
+                  src={bootstrapIcon}
                   alt='Bootstrap'
                   width='48px'
                   height='48px'
                 />
                 <img
-                  src='./../../public/imgs/mui.svg'
+                  src={muiIcon}
                   alt='mui'
                   width='48px'
                   height='48px'
                 />
                 <img
-                  src='./../../public/imgs/tailwindcss.svg'
-                  alt='mui'
+                  src={tailwindcssIcon}
+                  alt='tailwindcss'
                   width='48px'
                   height='48px'
                 />

@@ -11,7 +11,10 @@ import ListProject from './compronet/ListProject/ListProject';
 import '../src/App.css';
 
 function App() {
-  return (                                       
+  
+  console.log('Hello there 👋');
+
+  return (
     <>
       <Navbar />
       <Spline3D />
@@ -19,7 +22,6 @@ function App() {
       <AboutMe />
       <AllSomeBuilt />
       <Footer />
-      
     </>
   );
 }
