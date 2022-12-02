@@ -6,6 +6,7 @@ import Expertise from './compronet/Expertise/Expertise';
 import AboutMe from './compronet/AboutMe/AboutMe';
 import AllSomeBuilt from './compronet/SomeBuilt/AllSomeBuilt';
 import Footer from './compronet/Footer/Footer';
+import ListProject from './compronet/ListProject/ListProject';
 
 import '../src/App.css';
 
@@ -18,6 +19,7 @@ function App() {
       <AboutMe />
       <AllSomeBuilt />
       <Footer />
+      
     </>
   );
 }

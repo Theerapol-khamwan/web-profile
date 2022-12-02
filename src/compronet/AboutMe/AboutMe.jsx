@@ -1,5 +1,6 @@
 import style from './AboutMe.module.css';
 
+
 const AboutMe = () => {
   return (
     <>
@@ -17,7 +18,7 @@ const AboutMe = () => {
                   target='_blank'
                 >
                   <img
-                    src='../../public/imgs/linkedin.png'
+                    src='./../../public/imgs/linkedin.png'
                     alt='img-Linkedin'
                     width='24px'
                     height='24px'
@@ -29,7 +30,7 @@ const AboutMe = () => {
                   target='_blank'
                 >
                   <img
-                    src='../../public/imgs/github.png'
+                    src='./../../public/imgs/github.png'
                     alt='img-GitHub'
                     width='24px'
                     height='24px'
@@ -55,26 +56,26 @@ const AboutMe = () => {
                 <h3>Front End</h3>
 
                 <img
-                  src='../../public/imgs/html5.svg'
+                  src='./../../public/imgs/html5.svg'
                   alt='HTML5'
                   width='48px'
                   height='48px'
                 />
                 <img
-                  src='../../public/imgs/css3.svg'
+                  src='./../../public/imgs/css3.svg'
                   alt='CSS3'
                   width='48px'
                   height='48px'
                 />
                 <img
-                  src='../../public/imgs/javascript.svg'
+                  src='./../../public/imgs/javascript.svg'
                   alt='Javascript'
                   width='48px'
                   height='48px'
                 />
 
                 <img
-                  src='../../public/imgs/react.svg'
+                  src='./../../public/imgs/react.svg'
                   alt='React'
                   width='48px'
                   height='48px'
@@ -84,21 +85,21 @@ const AboutMe = () => {
                 <h3>Back End</h3>
 
                 <img
-                  src='../../public/imgs/nodedotjs.svg'
+                  src='./../../public/imgs/nodedotjs.svg'
                   alt='Nodedotjs'
                   width='48px'
                   height='48px'
                 />
 
                 <img
-                  src='../../public/imgs/express.svg'
+                  src='./../../public/imgs/express.svg'
                   alt='Express'
                   width='48px'
                   height='48px'
                 />
 
                 <img
-                  src='../../public/imgs/mongodb.svg'
+                  src='./../../public/imgs/mongodb.svg'
                   alt='Mongodb'
                   width='48px'
                   height='48px'
@@ -107,25 +108,25 @@ const AboutMe = () => {
               <div className={style.setIconSkills}>
                 <h3>More..</h3>
                 <img
-                  src='../../public/imgs/git.svg'
+                  src='./../../public/imgs/git.svg'
                   alt='Git'
                   width='48px'
                   height='48px'
                 />
                 <img
-                  src='../../public/imgs/bootstrap.svg'
+                  src='./../../public/imgs/bootstrap.svg'
                   alt='Bootstrap'
                   width='48px'
                   height='48px'
                 />
                 <img
-                  src='../../public/imgs/mui.svg'
+                  src='./../../public/imgs/mui.svg'
                   alt='mui'
                   width='48px'
                   height='48px'
                 />
                 <img
-                  src='../../public/imgs/tailwindcss.svg'
+                  src='./../../public/imgs/tailwindcss.svg'
                   alt='mui'
                   width='48px'
                   height='48px'

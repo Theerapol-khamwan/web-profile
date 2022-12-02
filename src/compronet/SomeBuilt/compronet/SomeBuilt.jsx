@@ -89,7 +89,7 @@ const SomeBuilt = () => {
               >
                 <div className={style.imageWrapper}>
                   <picture>
-                    <img src='../../public/imgs/city-park-h.webp' />
+                    <img src='./../../public/imgs/city-park-h.webp' />
                   </picture>
                 </div>
               </a>
